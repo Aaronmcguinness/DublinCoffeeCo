@@ -1,0 +1,176 @@
+#container
+{
+	width: 100%;
+	margin: 0px auto;
+	background-color:#C3B99A ;
+	color: #333;
+	line-height: 50%;
+	text-align:center;
+}
+#title
+{
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#top
+{
+padding: 5em;
+background-color:;
+}
+
+#top h1
+{
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-size: 350%;
+color:white;
+padding: 0;
+margin: 0;
+}
+
+#leftnav
+{
+float: left;
+width: 120px;
+padding: 0em;
+background-color:#C3B99A;
+}
+
+
+#content
+{
+margin-left: 285px;
+padding: 5em;
+} 
+
+ 
+ 
+#nav {
+position: fixed;
+list-style: none; /*removes bullets from the list*/
+}
+#nav li {
+float: center; /*floats list items left*/
+list-style: none; /*removes bullets from the list*/
+}
+
+#nav li a {
+display: block; /*fills up the entire list item and makes the whole area
+clickable*/
+padding: 8px 15px; /*padding will space them out a bit*/
+text-decoration: none; /*removes the underline from the anchor*/
+font-weight: bold;
+color: black;
+list-style: none; /*removes bullets from the list*/
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#nav1 {
+position: fixed;
+list-style: none; /*removes bullets from the list*/
+}
+#nav1 li {
+float: center; /*floats list items left*/
+list-style: none; /*removes bullets from the list*/
+}
+
+#nav1 li a {
+display: block; /*fills up the entire list item and makes the whole area
+clickable*/
+padding: 8px 15px; /*padding will space them out a bit*/
+text-decoration: none; /*removes the underline from the anchor*/
+font-weight: bold;
+color: white;
+list-style: none; /*removes bullets from the list*/
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+} 
+#nav li a:hover {
+color: #c00;
+background-color: #fff;
+}
+#facebook
+{
+position: fixed;
+    left: 60px;
+    top: 350px;
+}
+#twitter
+{
+position: fixed;
+    left: 60px;
+    top: 450px;
+	width:75px;
+	height:75px;	
+}
+#instagram
+{
+position: fixed;
+    left: 60px;
+    top: 550px;
+	width:75px;
+	height:75px;	
+}
+form{
+	width:550px;
+	height: 450px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height:24px;
+	font-weight:bold;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border:1px solid black;
+	float:left;
+	background: rgb(34,34,34); /*adds a translucent look to the form, this is for IE */
+    background: rgba(34,34,34,0.75);
+	}
+#contact{
+	padding: 10px;
+	
+}
+input{
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	
+}	
+
+textarea#feedback{
+	width:375px;
+	height: 150px;
+	display:block;
+	}
+.button1 {
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	font-weight:bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 4px 4px;
+    cursor: pointer;	
+}	
+	
+#footer
+{
+clear: both;
+margin: 0;
+padding: 2em;
+color:black;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+background-color:#C3B99A; 
+}
+#footer1
+{
+clear: both;
+margin: 0;
+padding: 2em;
+color:black;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+background-color:#C3B99A; 
+text-align: center;
+position:relative;
+}	
