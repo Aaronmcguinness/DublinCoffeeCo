@@ -3,6 +3,7 @@
 	<html>
 		<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -10,6 +11,7 @@
 		<title>Dublin Coffee Co.</title>
 		
 		<link href="coffee.css" rel="stylesheet"/>
+		<script src="coffee.js"></script>
 		<link rel="shortcut icon" type="image/x-icon" href="title3.jpg" />
 		
 		
@@ -18,9 +20,12 @@
 	
 	<body>
 		<div id="container">
+		
+		<!--<a href="index.html">
+			<img src="logo.png" alt="logo" style="width:168px;height:168px;float:left;">-->
 			
 			<div id="top"style="background-image:url(coffee-beans1.png)">
-				<h1>Dublin Coffee Co.</h1>
+				<h1><a>Dublin Coffee Co.</a></h1>
 				
 			</div>
 			<div>
@@ -28,17 +33,18 @@
 
 		</div>
 
-			<div id="leftnav">
-			
-		<ul id="nav">
-					<li><a href="Menu.html">Home</a></li>
-				<li><a href="Our Story.html">Our Story</a></li>
-				<li><a href="Shop.html">Shop</a></li>
-				<li><a href="Contact Us.html">Contact us </a></li>
-		</ul>
-		</ul>
-
+			<div id="myleftnav" class="leftnav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			    <a href="Menu.html">Home</a>
+				<a href="Our Story.html">Our Story</a>
+				<a href="Shop.html">Shop</a>
+				<a href="Contact Us.html">Contact us</a>
 			</div>
+			<span class ="menuButton" onclick="openNav()">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+			</span>
 			
 			<div id="content">
 		

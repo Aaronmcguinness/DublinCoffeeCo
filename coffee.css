@@ -2,7 +2,7 @@
 {
 	width: 100%;
 	margin: 0px auto;
-	background-color:#C3B99A ;
+	background-color:#C3B99A;  
 	color: #333;
 	line-height: 50%;
 	text-align:center;
@@ -10,26 +10,28 @@
 #title
 {
 font-family:"Trebuchet MS", Helvetica, sans-serif;
+padding:100%;
 }
 #top
 {
-padding: 5em;
-background-color:;
+padding: 5%;
+
 }
+
 
 #top h1
 {
 font-family:"Trebuchet MS", Helvetica, sans-serif;
 font-size: 350%;
 color:white;
-padding: 0;
-margin: 0;
+padding: 0%;
+margin: 0%;
 }
 
 #leftnav
 {
 float: left;
-width: 120px;
+width: 12%;
 padding: 0em;
 background-color:#C3B99A;
 }
@@ -37,12 +39,11 @@ background-color:#C3B99A;
 
 #content
 {
-margin-left: 285px;
-padding: 5em;
+margin-left: 20%;
+padding: 8%;
 } 
 
- 
- 
+
 #nav {
 position: fixed;
 list-style: none; /*removes bullets from the list*/
@@ -62,24 +63,65 @@ color: black;
 list-style: none; /*removes bullets from the list*/
 font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
-#nav1 {
-position: fixed;
-list-style: none; /*removes bullets from the list*/
-}
-#nav1 li {
-float: center; /*floats list items left*/
-list-style: none; /*removes bullets from the list*/
+/* The side navigation menu */
+.leftnav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: rgb(34,34,34); /*adds a translucent look to the form, this is for IE */
+    background: rgba(34,34,34,0.75);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-#nav1 li a {
-display: block; /*fills up the entire list item and makes the whole area
-clickable*/
-padding: 8px 15px; /*padding will space them out a bit*/
-text-decoration: none; /*removes the underline from the anchor*/
-font-weight: bold;
-color: white;
-list-style: none; /*removes bullets from the list*/
-font-family:"Trebuchet MS", Helvetica, sans-serif;
+/* The navigation menu links */
+.leftnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.leftnav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.leftnav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.menuButton
+{
+    display: inline-block;
+    cursor: pointer;
+	float:left;
+	margin: 10px;
+}
+/*creates bar menu button*/
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .leftnav {padding-top: 15px;}
+    .leftnav a {font-size: 18px;}
 } 
 #nav li a:hover {
 color: #c00;
@@ -108,46 +150,46 @@ position: fixed;
 	height:75px;	
 }
 form{
-	width:550px;
-	height: 450px;
+	width:55%;
+	height: 35%;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 14px;
-	line-height:24px;
+	font-size: 100%;
+	line-height:240%;
 	font-weight:bold;
 	color: white;
 	text-decoration: none;
-	padding: 10px;
+	padding: 5%;
 	border:1px solid black;
 	float:left;
 	background: rgb(34,34,34); /*adds a translucent look to the form, this is for IE */
     background: rgba(34,34,34,0.75);
 	}
 #contact{
-	padding: 10px;
+	padding: 1%;
 	
 }
 input{
-	width: 375px;
+	width: 80%;
 	display: block;
-	border: 1px solid #999;
-	height: 25px;
+	border: 1% solid #999;
+	height: 55%;
 	
 }	
 
 textarea#feedback{
-	width:375px;
-	height: 150px;
+	width:80%;
+	height: 55px;
 	display:block;
 	}
 .button1 {
     background-color: #fff;
     border: 1px solid black;
     color: black;
-    padding: 15px 32px;
+    padding: 1.5% 3.2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 100%;
 	font-weight:bold;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 4px 4px;
@@ -157,12 +199,14 @@ textarea#feedback{
 #footer
 {
 clear: both;
-margin: 0;
+margin: 1px;
 padding: 2em;
+ text-align: center;
 color:black;
 font-family:"Trebuchet MS", Helvetica, sans-serif;
 background-color:#C3B99A; 
 }
+
 #footer1
 {
 clear: both;
@@ -173,4 +217,5 @@ font-family:"Trebuchet MS", Helvetica, sans-serif;
 background-color:#C3B99A; 
 text-align: center;
 position:relative;
-}	
+}
+	
